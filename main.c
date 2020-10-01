@@ -1,30 +1,30 @@
 #include <stdio.h>
 
 int main() {
-    char znak;
+    char a;
 
-    int wartosc_calkowita;
-    double wartosc_wymierna;
-    char ciag_znakow[256];
+    int b;
+    double c;
+    char d[256];
 
-    char opcja = 'X';
-    char *Napis = "Opis programu";
+    char e = 'X';
+    char *f = "Opis programu";
 
-    printf("podaj znak ");
-    scanf("%c", &znak);
+    printf("Enter a Character : ");
+    scanf("%c", &a);
 
-    printf("podaj liczbe calkowita ");
-    scanf(" %i", &wartosc_calkowita);
+    printf("Enter an Integer Number : ");
+    scanf(" %i", &b);
 
-    printf("podaj liczbe zmiennoprzecinkowa");
-    scanf(" %lf", &wartosc_wymierna);
+    printf("Enter a Decimal Number : ");
+    scanf(" %lf", &c);
 
-    printf("podaj ciąg ", ciag_znakow);
-    scanf("%s", ciag_znakow);
+    printf("Enter a String ", d);
+    scanf("%s", d);
 
-    printf("znak to %c, liczba calkowita to %i, liczba zmiannoprzecinkowa to %lf, ciag to %s \n", znak, wartosc_calkowita, wartosc_wymierna, ciag_znakow);
+    printf("Character to %c, Integer Number to %i, Decimal Number to %lf, String to %s \n", a, b, c, d);
 
-    printf("wybrano opcje %c : %31s", opcja, Napis);
+    printf("Option Selected %c : %31s", e, f);
 
     return 0;
-};
+}
